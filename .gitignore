@@ -1,3 +1,6 @@
 .vscode
 datasets/
 final_dataset/
+model/
+final_model/
+env/
