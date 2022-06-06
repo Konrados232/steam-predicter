@@ -4,3 +4,4 @@ final_dataset/
 model/
 final_model/
 env/
+__pycache__
