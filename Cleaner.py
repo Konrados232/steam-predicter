@@ -44,7 +44,10 @@ class Cleaner():
 
 
     def _get_achievements(self, game_data):
-        return int(game_data["achievements"]["total"])
+        if "achievements" not in game_data:
+            return int(0)
+        else:
+            return int(game_data["achievements"]["total"])
 
 
     def _get_release_date(self, game_data):
